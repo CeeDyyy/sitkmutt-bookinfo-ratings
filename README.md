@@ -1,3 +1,3 @@
 # Bookinfo Rating Service
 
-Rating
+Rating service has been developed on NodeJS
