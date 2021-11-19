@@ -44,3 +44,8 @@ jobs:
                 "COMMIT_SHA": "${{ github.sha }}"
               }
             }
+  check:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Check
+        run: curl http://sitkmutt.bookinfo.dev.opsta.net/student46/ratings/health | grep "Ratings is good"
