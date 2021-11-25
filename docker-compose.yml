@@ -1,7 +1,7 @@
 services:
   ratings:
     build: .
-    image: ghcr.io/ceedyyy/bookinfo-ratings:dev
+    image: ghcr.io/ceedyyy/bookinfo-ratings:prd
     container_name: ratings
     ports:
       - "8080:8080"
